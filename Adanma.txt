@@ -1,0 +1,4 @@
+Hello world.
+I'll be documenting my tech journey into learning software development here.
+
+First thing was learning about repositories and cloning them in your gitbash to work.
