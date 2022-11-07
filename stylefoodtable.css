@@ -1,0 +1,32 @@
+.card-deck {
+    background-color: rgb(187, 187, 68);
+    background-size: 100%;
+}
+.food-photos {
+    border-image: 100%;
+    border-image-width:100%;
+    background-color: rgb(132, 132, 223);
+    
+
+}
+
+.food-table {
+    background-color: aqua;
+}
+
+.Food-photo.jpg {
+    border-image-width: 100%;
+    background-size: 100%;
+}
+table {
+    background-color: rgb(238, 213, 182);
+    border-style:ridge;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border: 20px;
+
+}
+
+img {
+size: 100px;
+}
