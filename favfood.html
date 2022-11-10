@@ -52,6 +52,8 @@
         background-origin: padding-box; 
         height: 90%;
         width:50%;
+        margin-top: 80px;
+        margin-bottom: 40px;
         }
     </style>
 </head>
@@ -169,13 +171,15 @@
     </div>
 
     <div class="card-image">
+        <picture>
         <div class="food-photos">
-            <img src="photo-1546069901-ba9599a7e63c.webp" alt="Delicious">
+            <source srcset="photo-1546069901-ba9599a7e63c.webp" media="(max-width:700px)" alt="Delicious">
            
-            <img class-src="food photo 2.jpg" alt= "Steak!">
+            <source srcset="food photo 2.jpg" media="(max-width:700px)"> alt= "Steak!">
             
-            <img class-src="Food photo.jpg" alt="Mouth savouring">
+            <img class-src="Food photo.jpg" alt="Mouth savouring" media="(max-width:600px">
         </div>
+        </picture>
 
 
     </div>
