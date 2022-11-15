@@ -16,6 +16,7 @@
 .Section-Two {
     margin: 50px;
     margin-right: 500px;
+    padding: 50px;
     padding-right: 100px;
     padding-left:20px;
     border-bottom: 100px;
@@ -30,9 +31,10 @@
 }
 
 .Section-Three {
-    margin:50px;1
+    margin:50px;
     margin-right: 500px;
     padding-right: 100px;
+    padding: 50px;
     padding-left:20px;
     border-bottom: 100px;
     border-width:  10px;
@@ -43,6 +45,7 @@
     font-weight: 700 ;
     font-style: normal;
     color: rgb(62, 27, 189);
+    text-shadow: 2rem;
 }
 
 *{
