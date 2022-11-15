@@ -1,0 +1,50 @@
+.Section-one {
+    margin: 50px;
+    margin-right: 500px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 100px;
+    border-bottom: 100px;
+    border-width: 10px;
+    border-color: blue;
+    border-style:groove;
+    border-radius: 10px;
+    background-color: rgb(231, 220, 222);
+    font-weight: 700;
+}
+
+.Section-Two {
+    margin: 50px;
+    margin-right: 500px;
+    padding-right: 100px;
+    padding-left:20px;
+    border-bottom: 100px;
+    border-width:  10px;
+    border-style:ridge;
+    border-color:rgb(228, 149, 162);
+    border-radius: 9px;
+    background-color:#eeebe3;
+    font-weight: 700 ;
+    
+
+}
+
+.Section-Three {
+    margin:50px;1
+    margin-right: 500px;
+    padding-right: 100px;
+    padding-left:20px;
+    border-bottom: 100px;
+    border-width:  10px;
+    border-style: groove;
+    border-color:rgb(138, 45, 73);
+    border-radius: 10px;
+    background-color:#f3f1ed;
+    font-weight: 700 ;
+    font-style: normal;
+    color: rgb(62, 27, 189);
+}
+
+*{
+
+}
