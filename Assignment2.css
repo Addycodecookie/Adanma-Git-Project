@@ -4,18 +4,65 @@ body {
     font-size: 1rem;
 }
  main {
-    justify-content:center;
     height:100vh;
-    align-items:center;
+    align-items:left;
     display: flex;
  }
  
  .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
+    align-content: flex-end;
  }
 
  card-row {
     display: grid;
-    grid templ
+    grid-template-columns: repeat(2);
+    grid-gap:2rem;
+    width: 60%;
+ }
+
+ .card{
+    background-color: rgb(197, 151, 151);
+    padding: 10%;
+    margin-top: 40%;
+    margin-bottom: 10%;
+    margin-right:  0%;
+    border-radius:6px;
+    width: 60%;
+ }
+
+ .card-body .list small{ 
+    width:60%;
+    margin-left: 60%;
+    margin-top: rem;
+
+ }
+
+ .card-footer{
+    margin-top: 1.5rem;
+    text-align:center;
+ }
+
+ .card-footer .btn {
+    font-size: 0.6rem;
+    text-decoration: 0.6rem;
+    background-color: aquamarine;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+
+ }
+
+ @media (max-width: 991px) {
+    .card {
+    width:40%
+    }
+ }
+ @media (max-width: 768px) {
+    .card {
+        width: 50%;
+    }
  }
